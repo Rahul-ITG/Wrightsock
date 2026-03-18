@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wrightsock — Performance Socks, Blister-Free</title>
+  <meta name="description" content="Wrightsock performance socks featuring patented double-layer technology. Engineered to eliminate blisters for runners, hikers, and athletes." />
+  <link rel="stylesheet" href="css/shared.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════════════════ -->
+  <header class="site-nav" role="banner">
+    <nav class="site-nav__inner" aria-label="Main navigation">
+
+      <!-- Logo -->
+      <a href="index.html" class="site-nav__logo" aria-label="Wrightsock home">
+        <svg viewBox="0 0 180 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <text x="0" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+                font-size="20" font-weight="800" fill="#111111" letter-spacing="2">WRIGHTSOCK</text>
+        </svg>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="site-nav__links" role="list">
+        <li><a href="#" class="site-nav__link">Running</a></li>
+        <li><a href="#" class="site-nav__link">Hiking</a></li>
+        <li><a href="#" class="site-nav__link">Athletic</a></li>
+        <li><a href="#" class="site-nav__link">Everyday</a></li>
+        <li><a href="#" class="site-nav__link">Sale</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="site-nav__actions">
+        <!-- Search -->
+        <button class="site-nav__icon-btn" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+        </button>
+
+        <!-- Account -->
+        <button class="site-nav__icon-btn" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+        </button>
+
+        <!-- Cart -->
+        <button class="site-nav__icon-btn site-nav__cart-count" aria-label="Cart, 2 items">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="site-nav__cart-badge" aria-hidden="true">2</span>
+        </button>
+
+        <!-- Hamburger (mobile) -->
+        <button class="site-nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <nav id="mobile-drawer" class="site-nav__drawer" aria-label="Mobile navigation">
+      <a href="#" class="site-nav__drawer-link">Running</a>
+      <a href="#" class="site-nav__drawer-link">Hiking</a>
+      <a href="#" class="site-nav__drawer-link">Athletic</a>
+      <a href="#" class="site-nav__drawer-link">Everyday</a>
+      <a href="#" class="site-nav__drawer-link">Sale</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 1: HERO BANNER
+    ══════════════════════════════════════════════════════ -->
+    <section class="hero" aria-label="Hero">
+      <img
+        class="hero__bg"
+        src="https://placehold.co/1600x900/1a1a1a/333333?text=Hero+Image"
+        alt="Runner on trail at dawn wearing Wrightsock performance socks"
+        width="1600"
+        height="900"
+      />
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero__content">
+          <span class="hero__eyebrow">New Spring Collection</span>
+          <h1 class="hero__headline">Run Further.<br>Blister&nbsp;Free.</h1>
+          <p class="hero__subline">
+            Engineered with patented double-layer technology to eliminate friction —
+            so nothing slows you down.
+          </p>
+          <div class="hero__ctas">
+            <a href="#" class="btn btn--white">Shop Running</a>
+            <a href="#" class="btn btn--outline" style="color:var(--white);border-color:rgba(255,255,255,0.5);">Explore Technology</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 2: HERO PRODUCT SPOTLIGHT
+    ══════════════════════════════════════════════════════ -->
+    <section class="product-spotlight" aria-label="Featured product">
+      <div class="product-spotlight__grid">
+
+        <!-- Image -->
+        <div class="product-spotlight__media">
+          <img
+            class="product-spotlight__img"
+            data-gallery
+            src="https://placehold.co/900x900/e8e8e4/888884?text=Product+Image"
+            alt="Double Layer Running Sock — Black/Grey"
+            width="900"
+            height="900"
+          />
+          <span class="product-spotlight__badge">Best Seller</span>
+        </div>
+
+        <!-- Details -->
+        <div class="product-spotlight__details">
+          <span class="product-spotlight__category">Running</span>
+          <h2 class="product-spotlight__name">Double Layer<br>Running Sock</h2>
+
+          <div class="product-spotlight__rating">
+            <div class="stars" aria-label="4.8 out of 5 stars">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span class="product-spotlight__review-count">4.8 (1,240 reviews)</span>
+          </div>
+
+          <div class="product-spotlight__price">$22.00</div>
+
+          <!-- Color selector -->
+          <div class="variant-group">
+            <p class="variant-group__label">Color <span>Black/Grey</span></p>
+            <div class="color-swatches" role="group" aria-label="Color">
+              <button class="color-swatch selected" style="background:#1a1a1a" data-color="Black/Grey" data-img="https://placehold.co/900x900/1a1a1a/555?text=Black" aria-label="Black/Grey" title="Black/Grey"></button>
+              <button class="color-swatch" style="background:#c8d0d8" data-color="Light Blue/White" data-img="https://placehold.co/900x900/c8d0d8/fff?text=Blue" aria-label="Light Blue/White" title="Light Blue/White"></button>
+              <button class="color-swatch" style="background:#C20000" data-color="Red/Black" data-img="https://placehold.co/900x900/C20000/fff?text=Red" aria-label="Red/Black" title="Red/Black"></button>
+              <button class="color-swatch" style="background:#f0ede8" data-color="Natural/White" data-img="https://placehold.co/900x900/f0ede8/999?text=Natural" aria-label="Natural/White" title="Natural/White"></button>
+              <button class="color-swatch" style="background:#3a5a4a" data-color="Forest/Olive" data-img="https://placehold.co/900x900/3a5a4a/fff?text=Forest" aria-label="Forest/Olive" title="Forest/Olive"></button>
+            </div>
+          </div>
+
+          <!-- Size selector -->
+          <div class="variant-group">
+            <p class="variant-group__label">Size <span>Select a size</span></p>
+            <div class="size-grid" role="group" aria-label="Size">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn selected" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+            </div>
+          </div>
+
+          <!-- ATC -->
+          <div class="product-spotlight__add">
+            <a href="pdp.html" class="btn btn--primary btn--full">Add to Bag — $22.00</a>
+            <a href="pdp.html" class="btn btn--outline btn--full">View Full Details</a>
+          </div>
+
+          <!-- Feature pills -->
+          <ul class="feature-pills" aria-label="Key features">
+            <li class="feature-pill">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2a8 8 0 1 0 0 16A8 8 0 0 0 10 2zm0 0v4m0 8v2m-4-6H4m12 0h-2"/></svg>
+              No Blisters
+            </li>
+            <li class="feature-pill">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l3-3m0 0l3-3M6 6l3 3M3 15l3 3m0 0l3-3m-3 3V9"/></svg>
+              Double Layer
+            </li>
+            <li class="feature-pill">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 6v4l3 3"/></svg>
+              Moisture Wicking
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 2B: THE DOUBLE LAYER DIFFERENCE
+    ══════════════════════════════════════════════════════ -->
+    <section class="dl-difference section" aria-label="The Double Layer Difference">
+      <div class="container">
+        <div class="dl-difference__grid">
+
+          <!-- Animated diagram -->
+          <div class="dl-difference__visual">
+            <div class="dl-difference__diagram" id="dl-diagram">
+              <div class="dl-layer dl-layer--outer">
+                <span class="t-label" style="color:rgba(255,255,255,0.4)">Outer Layer</span>
+              </div>
+              <div class="dl-layer dl-layer--inner">
+                <span class="t-label" style="color:rgba(194,0,0,0.7)">Inner Layer</span>
+              </div>
+              <div class="dl-friction-label">
+                <span class="dl-friction-label__arrows">&lrarr;</span>
+                <span class="dl-friction-label__text">Friction happens here, not on your skin</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div>
+            <span class="dl-difference__eyebrow">Patented Technology</span>
+            <h2 class="dl-difference__headline">The Double Layer<br>Difference.</h2>
+
+            <div class="dl-difference__steps">
+              <div class="dl-step">
+                <span class="dl-step__number">1</span>
+                <div>
+                  <p class="dl-step__title">Two Layers, One System</p>
+                  <p class="dl-step__desc">An inner Dri-WRIGHT layer stays with your foot. An outer layer sits against the shoe. They move independently — just like your body's own layers of skin.</p>
+                </div>
+              </div>
+              <div class="dl-step">
+                <span class="dl-step__number">2</span>
+                <div>
+                  <p class="dl-step__title">Friction Redirected</p>
+                  <p class="dl-step__desc">The two layers glide against each other instead of against your skin. Friction happens between the sock layers — not on your foot.</p>
+                </div>
+              </div>
+              <div class="dl-step">
+                <span class="dl-step__number">3</span>
+                <div>
+                  <p class="dl-step__title">Zero Blisters. Guaranteed.</p>
+                  <p class="dl-step__desc">No hot spots. No tape. No body glide. Just pull them on and run — for 5 miles or 50. If you get a blister, we'll give you your money back.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Comparison -->
+            <div class="dl-comparison">
+              <div>
+                <p class="dl-comparison__col-title">Regular Socks</p>
+                <div class="dl-comparison__item dl-comparison__item--bad">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l10 10M15 5L5 15"/></svg>
+                  Friction against skin
+                </div>
+                <div class="dl-comparison__item dl-comparison__item--bad">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l10 10M15 5L5 15"/></svg>
+                  Single-layer construction
+                </div>
+                <div class="dl-comparison__item dl-comparison__item--bad">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l10 10M15 5L5 15"/></svg>
+                  Traps moisture at skin
+                </div>
+              </div>
+              <div>
+                <p class="dl-comparison__col-title dl-comparison__col-title--highlight">Wrightsock</p>
+                <div class="dl-comparison__item dl-comparison__item--good">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10l5 5L16 5"/></svg>
+                  Friction between layers
+                </div>
+                <div class="dl-comparison__item dl-comparison__item--good">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10l5 5L16 5"/></svg>
+                  Patented double-layer
+                </div>
+                <div class="dl-comparison__item dl-comparison__item--good">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10l5 5L16 5"/></svg>
+                  Wicks moisture away
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 3: FEATURED COLLECTIONS
+    ══════════════════════════════════════════════════════ -->
+    <section class="collections section" aria-label="Shop by collection">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Shop by Activity</span>
+          <h2 class="section__title">Find Your Sock.</h2>
+        </div>
+
+        <div class="collections__grid" role="list">
+
+          <a href="#" class="collection-tile" role="listitem" aria-label="Shop Running socks">
+            <img class="collection-tile__img" src="https://placehold.co/600x800/2a2a2a/555?text=Running" alt="Running socks collection" width="600" height="800" />
+            <div class="collection-tile__overlay" aria-hidden="true"></div>
+            <div class="collection-tile__info">
+              <span class="collection-tile__name">
+                Running
+                <svg class="collection-tile__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="#" class="collection-tile" role="listitem" aria-label="Shop Hiking socks">
+            <img class="collection-tile__img" src="https://placehold.co/600x800/3a3a34/666?text=Hiking" alt="Hiking socks collection" width="600" height="800" />
+            <div class="collection-tile__overlay" aria-hidden="true"></div>
+            <div class="collection-tile__info">
+              <span class="collection-tile__name">
+                Hiking
+                <svg class="collection-tile__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="#" class="collection-tile" role="listitem" aria-label="Shop Athletic socks">
+            <img class="collection-tile__img" src="https://placehold.co/600x800/1a2a3a/448?text=Athletic" alt="Athletic socks collection" width="600" height="800" />
+            <div class="collection-tile__overlay" aria-hidden="true"></div>
+            <div class="collection-tile__info">
+              <span class="collection-tile__name">
+                Athletic
+                <svg class="collection-tile__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="#" class="collection-tile" role="listitem" aria-label="Shop Everyday socks">
+            <img class="collection-tile__img" src="https://placehold.co/600x800/3a3030/666?text=Everyday" alt="Everyday socks collection" width="600" height="800" />
+            <div class="collection-tile__overlay" aria-hidden="true"></div>
+            <div class="collection-tile__info">
+              <span class="collection-tile__name">
+                Everyday
+                <svg class="collection-tile__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 3B: SOCK ANATOMY EXPLORER
+    ══════════════════════════════════════════════════════ -->
+    <section class="sock-anatomy section" aria-label="Sock anatomy explorer">
+      <div class="container">
+
+        <div class="section__header" style="text-align:center;max-width:560px;margin-inline:auto;">
+          <span class="section__eyebrow">Engineered Performance</span>
+          <h2 class="section__title">Anatomy of a Wrightsock</h2>
+        </div>
+
+        <div class="sock-anatomy__grid">
+
+          <!-- Diagram with hotspots -->
+          <div class="sock-anatomy__diagram" role="img" aria-label="Interactive sock diagram with feature hotspots">
+            <img
+              class="sock-anatomy__img"
+              src="https://placehold.co/700x940/e2e0dc/999?text=Sock+Diagram"
+              alt="Wrightsock anatomy diagram"
+              width="700"
+              height="940"
+            />
+
+            <!-- Hotspots positioned over the sock image -->
+            <button class="hotspot active" style="top:14%;left:55%;" data-anatomy="0" aria-label="CoolMesh ventilation zone">
+            </button>
+            <button class="hotspot" style="top:38%;left:30%;" data-anatomy="1" aria-label="Arch support band">
+            </button>
+            <button class="hotspot" style="top:55%;left:60%;" data-anatomy="2" aria-label="Double layer construction">
+            </button>
+            <button class="hotspot" style="top:78%;left:45%;" data-anatomy="3" aria-label="Reinforced heel">
+            </button>
+            <button class="hotspot" style="top:88%;left:70%;" data-anatomy="4" aria-label="Reinforced toe">
+            </button>
+          </div>
+
+          <!-- Feature detail cards -->
+          <div class="sock-anatomy__features" role="list" aria-label="Sock features">
+
+            <div class="anatomy-card active" data-anatomy="0" role="listitem">
+              <div class="anatomy-card__header">
+                <span class="anatomy-card__number">1</span>
+                <p class="anatomy-card__title">CoolMesh Ventilation</p>
+              </div>
+              <p class="anatomy-card__body">
+                Strategic mesh panels across the top of the foot channel airflow to keep feet cool and dry. The open-weave construction allows heat to escape without compromising structural support.
+              </p>
+            </div>
+
+            <div class="anatomy-card" data-anatomy="1" role="listitem">
+              <div class="anatomy-card__header">
+                <span class="anatomy-card__number">2</span>
+                <p class="anatomy-card__title">Arch Support Band</p>
+              </div>
+              <p class="anatomy-card__body">
+                A snug elastic band wraps the arch to hold the sock firmly in place and provide gentle compression. Reduces fatigue on long runs and prevents bunching mid-stride.
+              </p>
+            </div>
+
+            <div class="anatomy-card" data-anatomy="2" role="listitem">
+              <div class="anatomy-card__header">
+                <span class="anatomy-card__number">3</span>
+                <p class="anatomy-card__title">Double Layer Construction</p>
+              </div>
+              <p class="anatomy-card__body">
+                The inner Dri-WRIGHT layer wicks moisture from skin while the outer layer provides cushioning and structure. Together they eliminate friction at its source.
+              </p>
+            </div>
+
+            <div class="anatomy-card" data-anatomy="3" role="listitem">
+              <div class="anatomy-card__header">
+                <span class="anatomy-card__number">4</span>
+                <p class="anatomy-card__title">Reinforced Heel</p>
+              </div>
+              <p class="anatomy-card__body">
+                Extra-dense cushioning at the heel absorbs impact and extends durability in the highest-wear zone. Y-heel shaping keeps the pocket aligned for a slip-free fit.
+              </p>
+            </div>
+
+            <div class="anatomy-card" data-anatomy="4" role="listitem">
+              <div class="anatomy-card__header">
+                <span class="anatomy-card__number">5</span>
+                <p class="anatomy-card__title">Reinforced Toe Box</p>
+              </div>
+              <p class="anatomy-card__body">
+                Seamless toe closure prevents irritation, while a reinforced knit in the toe box adds durability and protection during toe-off — when forces are at their peak.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 4: BEST SELLERS
+    ══════════════════════════════════════════════════════ -->
+    <section class="best-sellers section" aria-label="Best sellers">
+      <div class="container">
+        <div class="best-sellers__header">
+          <div>
+            <span class="section__eyebrow">Most Loved</span>
+            <h2 class="section__title">Best Sellers</h2>
+          </div>
+          <a href="#" class="best-sellers__view-all">Shop All</a>
+        </div>
+
+        <div class="best-sellers__track" role="list">
+
+          <!-- Card 1 -->
+          <article class="product-card" role="listitem">
+            <a href="pdp.html" class="product-card__media">
+              <img class="product-card__img" src="https://placehold.co/500x500/1a1a1a/555?text=Product+1" alt="Double Layer Running Sock" width="500" height="500" />
+              <span class="product-card__badge">Best Seller</span>
+            </a>
+            <h3 class="product-card__name"><a href="pdp.html">Double Layer Running Sock</a></h3>
+            <div class="product-card__meta">
+              <span class="product-card__price">$22.00</span>
+              <div class="product-card__swatches" aria-label="Available colors">
+                <span class="product-card__swatch" style="background:#1a1a1a" title="Black"></span>
+                <span class="product-card__swatch" style="background:#c8d0d8" title="Blue"></span>
+                <span class="product-card__swatch" style="background:#C20000" title="Red"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="product-card" role="listitem">
+            <a href="pdp.html" class="product-card__media">
+              <img class="product-card__img" src="https://placehold.co/500x500/3a5a4a/aaccaa?text=Product+2" alt="Double Layer Trail Sock" width="500" height="500" />
+            </a>
+            <h3 class="product-card__name"><a href="pdp.html">Double Layer Trail Sock</a></h3>
+            <div class="product-card__meta">
+              <span class="product-card__price">$24.00</span>
+              <div class="product-card__swatches" aria-label="Available colors">
+                <span class="product-card__swatch" style="background:#3a5a4a" title="Forest"></span>
+                <span class="product-card__swatch" style="background:#5a4a3a" title="Brown"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="product-card" role="listitem">
+            <a href="pdp.html" class="product-card__media">
+              <img class="product-card__img" src="https://placehold.co/500x500/2a2a2a/666?text=Product+3" alt="Double Layer Crew Sock" width="500" height="500" />
+              <span class="product-card__badge">New</span>
+            </a>
+            <h3 class="product-card__name"><a href="pdp.html">Double Layer Crew Sock</a></h3>
+            <div class="product-card__meta">
+              <span class="product-card__price">$26.00</span>
+              <div class="product-card__swatches" aria-label="Available colors">
+                <span class="product-card__swatch" style="background:#2a2a2a" title="Charcoal"></span>
+                <span class="product-card__swatch" style="background:#f0ede8" title="Natural"></span>
+                <span class="product-card__swatch" style="background:#c8d0d8" title="Blue"></span>
+                <span class="product-card__swatch" style="background:#C20000" title="Red"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="product-card" role="listitem">
+            <a href="pdp.html" class="product-card__media">
+              <img class="product-card__img" src="https://placehold.co/500x500/1a2a3a/446688?text=Product+4" alt="Double Layer Quarter Sock" width="500" height="500" />
+            </a>
+            <h3 class="product-card__name"><a href="pdp.html">Double Layer Quarter Sock</a></h3>
+            <div class="product-card__meta">
+              <span class="product-card__price">$20.00</span>
+              <div class="product-card__swatches" aria-label="Available colors">
+                <span class="product-card__swatch" style="background:#1a1a1a" title="Black"></span>
+                <span class="product-card__swatch" style="background:#1a2a3a" title="Navy"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="product-card" role="listitem">
+            <a href="pdp.html" class="product-card__media">
+              <img class="product-card__img" src="https://placehold.co/500x500/5a4a3a/998877?text=Product+5" alt="Double Layer Hike Crew" width="500" height="500" />
+              <span class="product-card__badge">Top Rated</span>
+            </a>
+            <h3 class="product-card__name"><a href="pdp.html">Double Layer Hike Crew</a></h3>
+            <div class="product-card__meta">
+              <span class="product-card__price">$28.00</span>
+              <div class="product-card__swatches" aria-label="Available colors">
+                <span class="product-card__swatch" style="background:#5a4a3a" title="Brown"></span>
+                <span class="product-card__swatch" style="background:#3a5a4a" title="Forest"></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 4B: COMMUNITY MILE COUNTER
+    ══════════════════════════════════════════════════════ -->
+    <section class="mile-counter section" aria-label="Community stats">
+      <div class="container">
+        <p class="mile-counter__eyebrow">Our Community</p>
+
+        <p class="mile-counter__number" aria-label="12.4 million plus miles">
+          <span id="mile-count" data-target="12400000">0</span><sup>+</sup>
+        </p>
+        <p class="mile-counter__label">miles run, hiked &amp; walked — blister free.</p>
+
+        <div class="mile-counter__stats" role="list">
+          <div class="mile-stat" role="listitem">
+            <p class="mile-stat__value"><span class="counter" data-target="48000">0</span>+</p>
+            <p class="mile-stat__label">Happy Athletes</p>
+          </div>
+          <div class="mile-stat" role="listitem">
+            <p class="mile-stat__value">4.8<span style="color:var(--gray-mid)">/5</span></p>
+            <p class="mile-stat__label">Average Rating</p>
+          </div>
+          <div class="mile-stat" role="listitem">
+            <p class="mile-stat__value">Since <span style="font-weight:400">1995</span></p>
+            <p class="mile-stat__label">Trusted by Athletes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 5: BRAND STORY / USP
+    ══════════════════════════════════════════════════════ -->
+    <section class="brand-story section" aria-label="Our story">
+      <div class="container">
+        <div class="brand-story__grid">
+
+          <div class="brand-story__content">
+            <span class="brand-story__eyebrow">Why Wrightsock</span>
+            <h2 class="brand-story__headline">The Science<br>Behind Blister‑Free.</h2>
+            <p class="brand-story__body">
+              Every blister starts with friction. Our patented double-layer construction
+              places two sock layers between your foot and the shoe, so they rub against
+              each other — not your skin. The result is a sock that moves with your foot,
+              mile after mile, without fail.
+            </p>
+            <p class="brand-story__body">
+              Founded by runners, tested by athletes, trusted by hikers and everyday
+              wearers since 1995. Wrightsock isn't a trend. It's a guarantee.
+            </p>
+            <a href="#" class="btn btn--outline" style="margin-top:var(--space-xl)">Our Technology</a>
+          </div>
+
+          <div class="brand-story__media">
+            <img
+              class="brand-story__img"
+              src="https://placehold.co/800x1000/2a2a2a/555?text=Brand+Story+Image"
+              alt="Close-up of Wrightsock double-layer construction"
+              width="800"
+              height="1000"
+            />
+          </div>
+
+        </div>
+      </div>
+
+      <!-- USP Pillars -->
+      <div class="usp-pillars" role="list">
+
+        <div class="usp-pillar" role="listitem">
+          <svg class="usp-pillar__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4z"/>
+            <path d="M16 24l6 6 10-12"/>
+          </svg>
+          <h3 class="usp-pillar__title">Blister-Free Guarantee</h3>
+          <p class="usp-pillar__desc">
+            Our double-layer technology eliminates friction at the source. No blisters — guaranteed, or your money back.
+          </p>
+        </div>
+
+        <div class="usp-pillar" role="listitem">
+          <svg class="usp-pillar__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 24C8 15.16 15.16 8 24 8s16 7.16 16 16-7.16 16-16 16"/>
+            <path d="M24 8v8M24 32v8M8 24h8M32 24h8"/>
+            <circle cx="24" cy="24" r="4"/>
+          </svg>
+          <h3 class="usp-pillar__title">Patented Double Layer</h3>
+          <p class="usp-pillar__desc">
+            Two sock layers move together, not against your skin. The inner layer wicks moisture while the outer layer provides cushioning and support.
+          </p>
+        </div>
+
+        <div class="usp-pillar" role="listitem">
+          <svg class="usp-pillar__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 40V24L24 8l12 16v16"/>
+            <path d="M20 40v-8h8v8"/>
+            <path d="M12 24h24"/>
+          </svg>
+          <h3 class="usp-pillar__title">Built to Perform</h3>
+          <p class="usp-pillar__desc">
+            Engineered for runners, hikers, and athletes. Every detail — from cushion zones to arch support — is designed for peak performance.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 6: FIND YOUR SOCK QUIZ CTA
+    ══════════════════════════════════════════════════════ -->
+    <section class="quiz-cta section" aria-label="Find your perfect sock">
+      <div class="quiz-cta__bg-pattern" aria-hidden="true"></div>
+      <div class="container">
+        <div class="quiz-cta__inner">
+
+          <!-- Copy side -->
+          <div class="quiz-cta__content">
+            <span class="quiz-cta__eyebrow">Not Sure Where to Start?</span>
+            <h2 class="quiz-cta__headline">Find Your<br>Perfect Sock.</h2>
+            <p class="quiz-cta__body">
+              Answer three quick questions and we'll match you to the Wrightsock that fits your activity, climate, and shoe style. Takes less than 60 seconds.
+            </p>
+
+            <div class="quiz-cta__steps">
+              <div class="quiz-step">
+                <span class="quiz-step__icon">1</span>
+                Tell us your primary activity
+              </div>
+              <div class="quiz-step">
+                <span class="quiz-step__icon">2</span>
+                Pick your preferred height &amp; cushion
+              </div>
+              <div class="quiz-step">
+                <span class="quiz-step__icon">3</span>
+                Get your personalised recommendation
+              </div>
+            </div>
+
+            <a href="#" class="btn btn--accent">Take the Quiz</a>
+          </div>
+
+          <!-- Decorative cards (desktop) -->
+          <div class="quiz-cta__visual" aria-hidden="true">
+            <div class="quiz-option">
+              <span class="quiz-option__icon">&#127939;</span>
+              <p class="quiz-option__label">Running</p>
+              <p class="quiz-option__desc">Road, trail, or track — we've got you covered.</p>
+            </div>
+            <div class="quiz-option">
+              <span class="quiz-option__icon">&#9968;</span>
+              <p class="quiz-option__label">Hiking</p>
+              <p class="quiz-option__desc">Day hikes to multi-day backpacking.</p>
+            </div>
+            <div class="quiz-option">
+              <span class="quiz-option__icon">&#127947;</span>
+              <p class="quiz-option__label">Athletic</p>
+              <p class="quiz-option__desc">Gym, court sports, and cross-training.</p>
+            </div>
+            <div class="quiz-option">
+              <span class="quiz-option__icon">&#128715;</span>
+              <p class="quiz-option__label">Everyday</p>
+              <p class="quiz-option__desc">All-day comfort for work and travel.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       EMAIL POPUP
+  ══════════════════════════════════════════════════════ -->
+  <div class="popup-overlay" id="email-popup" role="dialog" aria-modal="true" aria-label="Get 15% off your first order">
+    <div class="popup">
+
+      <div class="popup__hero">
+        <img
+          class="popup__hero-img"
+          src="https://placehold.co/520x180/111111/333?text=Sock+Close-Up"
+          alt=""
+          width="520"
+          height="180"
+        />
+        <span class="popup__discount-badge">15% Off</span>
+        <button class="popup__close" id="popup-close" aria-label="Close popup">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="popup__body">
+        <h2 class="popup__title">Welcome to Wrightsock</h2>
+        <p class="popup__subtitle">
+          Sign up and get <strong style="color:var(--accent)">15% off</strong> your first order.
+          Plus early access to new drops and exclusive offers.
+        </p>
+
+        <form class="popup__form" id="popup-form" action="#" method="post">
+          <input
+            class="popup__input"
+            type="email"
+            name="email"
+            placeholder="Your email address"
+            required
+            autocomplete="email"
+            aria-label="Email address"
+          />
+          <button type="submit" class="btn btn--primary">Get 15% Off</button>
+        </form>
+
+        <button class="popup__no-thanks" id="popup-dismiss">No thanks, I'll pay full price</button>
+
+        <p class="popup__fine-print">
+          By signing up you agree to receive marketing emails. Unsubscribe any time. We never share your data.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+
+      <div class="site-footer__top">
+
+        <!-- Brand -->
+        <div class="site-footer__brand">
+          <a href="index.html" class="site-footer__brand-logo" aria-label="Wrightsock home">
+            <svg viewBox="0 0 180 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <text x="0" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+                    font-size="20" font-weight="800" fill="#ffffff" letter-spacing="2">WRIGHTSOCK</text>
+            </svg>
+          </a>
+          <p class="site-footer__tagline">
+            Performance socks engineered to eliminate blisters. Trusted by runners and hikers since 1995.
+          </p>
+        </div>
+
+        <!-- Shop -->
+        <div>
+          <p class="site-footer__col-title">Shop</p>
+          <ul class="site-footer__col-links">
+            <li><a href="#">Running Socks</a></li>
+            <li><a href="#">Hiking Socks</a></li>
+            <li><a href="#">Athletic Socks</a></li>
+            <li><a href="#">Everyday Socks</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </div>
+
+        <!-- Info -->
+        <div>
+          <p class="site-footer__col-title">Info</p>
+          <ul class="site-footer__col-links">
+            <li><a href="#">Our Technology</a></li>
+            <li><a href="#">About Wrightsock</a></li>
+            <li><a href="#">Wholesale</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div>
+          <p class="site-footer__col-title">Support</p>
+          <ul class="site-footer__col-links">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Size Guide</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="site-footer__bottom">
+        <p class="site-footer__copyright">&copy; 2025 Wrightsock. All rights reserved.</p>
+        <div class="site-footer__socials" aria-label="Social media links">
+          <!-- Instagram -->
+          <a href="#" class="site-footer__social-link" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <!-- Facebook -->
+          <a href="#" class="site-footer__social-link" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <!-- Twitter / X -->
+          <a href="#" class="site-footer__social-link" aria-label="X (Twitter)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l16 16M4 20L20 4"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
