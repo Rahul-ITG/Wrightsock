@@ -548,7 +548,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-2xl);
-  align-items: center;
+  align-items: stretch;
 }
 
 @media (min-width: 768px) {
@@ -558,7 +558,11 @@
   }
 }
 
-.brand-story__content {}
+.brand-story__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .brand-story__eyebrow {
   font-size: 0.75rem;
@@ -591,11 +595,12 @@
   position: relative;
   border-radius: 2px;
   overflow: hidden;
+  min-height: 400px;
 }
 
 .brand-story__img {
   width: 100%;
-  aspect-ratio: 4/5;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
